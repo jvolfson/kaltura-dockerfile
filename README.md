@@ -61,7 +61,7 @@ script we're using in Yle for automated partner creation (snipped MIT licensed,
 Kaltura client AGPLv3 licensed):
 
 ```clj
-; license MIT (Kaltura client: AGPLv3)
+; Snippet license: MIT (Kaltura Java client: AGPLv3)
 (ns yle.dev-kaltura
   (:require [clj-time.core :as t])
   (:import (com.kaltura.client.enums KalturaSessionType KalturaPartnerType)
