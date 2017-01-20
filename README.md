@@ -1,6 +1,7 @@
 # Dockerized Kaltura server
 
 Docker image(s) containing a pre-configured Kaltura community edition server.
+Also in [Docker Hub](https://hub.docker.com/r/yleisradio/kaltura-dev).
 
 
 ## Usage
