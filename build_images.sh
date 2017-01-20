@@ -11,3 +11,14 @@ do
   docker tag "yleisradio/kaltura-dev:port-$p-v$VERSION" "yleisradio/kaltura-dev:port-$p"
 done
 
+read -p "Images built. Publish? [yN] " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+  for p in "${PORTS[@]}"
+  do
+    docker push "yleisradio/kaltura-dev:port-$p-v$VERSION"
+    docker push "yleisradio/kaltura-dev:port-$p"
+  done
+fi
+
+echo "Done"
