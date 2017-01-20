@@ -60,7 +60,7 @@ You can use admin user to create new partners via API. Here is an example
 script we're using in Yle for automated partner creation (snipped MIT licensed,
 Kaltura client AGPLv3 licensed):
 
-```
+```clj
 ; license MIT (Kaltura client: AGPLv3)
 (ns yle.dev-kaltura
   (:require [clj-time.core :as t])
