@@ -106,7 +106,6 @@ Kaltura client AGPLv3 licensed):
 (def admin-client
   (delay (create-client! ADMIN-CREDENTIALS)))
 
-
 (defn create-partner! [partner-name]
   (let [p (KalturaPartner.)
         user-id (str "admin@" partner-name ".yle.fi")
